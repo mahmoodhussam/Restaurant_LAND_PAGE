@@ -139,6 +139,10 @@ padding: 180px 0px 0px 100px;
 	width: 180px;
 	height: 150px;
 }
+.col-sp img:hover{
+	opacity: 0.7;
+	transition: 0.4s;
+}
 .col-sp h3{
 	margin: 10px 0px;
 	color: #000;
