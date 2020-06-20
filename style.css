@@ -79,3 +79,29 @@ padding: 180px 0px 0px 100px;
 	border-radius: 20px;
 	transition: 0.9s;
 }
+.story{
+	margin: 30px 150px 0px 400px;
+	padding: 10px;
+	background: #fff;
+	height: 190px;
+}
+.story-text{
+	float: right;
+	padding-top: 20px;
+	padding-right: 60px;
+	color: #000;
+}
+.story-text h1{
+	margin-bottom: 20px;
+}
+.story-text p{
+	font-family: fantasy;
+	width: 200px;
+}
+.story-img {
+	float: left;
+}
+.story-img img{
+	width: 400px;
+	height: 170px;
+}
