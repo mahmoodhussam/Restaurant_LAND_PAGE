@@ -1,7 +1,11 @@
 *{
 	margin:0;
 	padding: 0;
-}		
+}	
+body{
+
+}
+
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./bg/10.jpg);
 	height: 100vh; 
@@ -45,7 +49,9 @@ header{
 	border:1px solid #fff;
 
 }
-#reservation a:hover{
+#reservation :hover{
+	transition: 0.9s;
+	background-color:#000; 
 	color:#fff;
 }
 .text-hero{
@@ -152,4 +158,155 @@ padding: 180px 0px 0px 100px;
 .col-sp p{
 	color: #c8c8c8;
 	margin-bottom: 20px;
+}
+.menu {
+text-align: center;
+}
+.menu  h1{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.menu  p{
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 0px 400px;
+	color: #c8c8c8;
+}
+
+.menu  button{
+	margin: 30px 20px 80px 10px;
+	padding: 10px 30px;
+	border-radius: 200px;
+	border:none;
+}
+.menu  button:hover{
+	background-color: #80b045;
+	transition: 0.9s;
+}
+.active {
+	background-color: #80b045;
+
+}
+.Full{
+	width: 100%;
+	margin-left: 60px;
+}
+.menu-1 {
+	width: 350px;
+	float: left;
+}
+
+.row_menu img{
+	width: 100px;
+	height: 75px;
+}
+
+.text-dish{
+	margin: -60px 0px 0px -140px;
+	float: left;	
+
+}
+
+.text-dish p{
+	font-size: 15px;
+	width: 200px;	
+
+}
+.menu-2{
+}
+.row_menu-2 {
+	margin-bottom:  -60px;
+}
+.row_menu-2 img{
+	width: 100px;
+	height: 75px;
+	margin-left:-200px ; 
+}
+.text-dish-2 p{
+	position: relative;
+	top: -60px;
+	left: 100px;
+	text-align: right;
+}
+.text-dish-2 h5{
+	position: relative;
+	top: -60px;
+	left: -275px;
+	text-align: right;
+}
+#chief{
+	margin: 200px;
+}
+.text-chief {
+	float: left;
+	margin-top: 70px;
+}
+.text-chief h1{
+	margin-bottom:10px;
+}
+.text-chief p{
+	width: 300px;
+	line-height: 20px;
+}
+.img-chief{
+	float: right;
+}
+.img-chief img{
+	width: 500px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+footer{
+	background-color: #00001a;
+	height: 415px;
+	margin-top: 700px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+footer ul {
+	list-style: none;
+	padding:100px 0px 0px 200px;
+	float: left;
+}
+footer ul li{
+	margin-bottom: 15px;
+}
+footer ul li a{
+	text-decoration: none;
+	color:#c8c8c8;
+
+}
+.subscribe{
+	padding: 100px 0px 0px 0px;
+}
+.subscribe h6{
+	color: #fff;
+	margin-left: 960px;
+	font-size: 10px;
+}
+.subscribe input{
+	padding: 5px 10px 5px 10px ;
+	border-radius: 20px;
+	margin-left: 110px;
+
+}
+.social{
+	margin: 150px 50px 50px 400px;
+}
+.social img{
+	width:40px;
+	margin-right: 50px;
+}
+.social img:hover{
+	opacity: 0.6;
+	transition: 0.4s;
+}
+#design{
+	font-family: fantasy;
+	font-size: 20px;
+	color:#fff;
+	margin-left: 450px;
 }
