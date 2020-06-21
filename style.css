@@ -2,8 +2,9 @@
 	margin:0;
 	padding: 0;
 }	
-body{
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 header{
@@ -193,10 +194,10 @@ text-align: center;
 }
 .Full{
 	width: 100%;
-	margin-left: 60px;
 }
 .menu-1 {
 	width: 350px;
+	margin-left: 100px;
 	float: left;
 }
 
@@ -217,25 +218,28 @@ text-align: center;
 
 }
 .menu-2{
+
 }
 .row_menu-2 {
 	margin-bottom:  -60px;
 }
+
 .row_menu-2 img{
 	width: 100px;
 	height: 75px;
 	margin-left:-200px ; 
 }
+
 .text-dish-2 p{
 	position: relative;
 	top: -60px;
-	left: 100px;
+	left: 130px;
 	text-align: right;
 }
 .text-dish-2 h5{
 	position: relative;
 	top: -60px;
-	left: -275px;
+	left: -250px;
 	text-align: right;
 }
 #chief{
